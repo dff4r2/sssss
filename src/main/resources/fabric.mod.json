@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "crosshairmod",
+  "version": "1.0.0",
+  "name": "Crosshair Color",
+  "description": "Red crosshair when you can hit, cyan when target is blocking with a shield.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.crosshairmod.CrosshairColorMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
